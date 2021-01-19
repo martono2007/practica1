@@ -1,7 +1,45 @@
-.cuadrados{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.cuadrados-1{
     height: 80px;
     width: 80px;
     font-size: 40px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+}
+div.cuadrados-2{
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+}
+div.cuadrados-3{
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: brown;
+}
+div.cuadrados-4{
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: chocolate;
+}
+div.cuadrados-5{
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: crimson;
 }

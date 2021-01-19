@@ -9,7 +9,37 @@ hr{
 }
 p{
     color: maroon;
+    height: 580;
+    width: 100;
 }
+
 body{
-    background-color: skyblue;
+    background-color: red;
+}
+
+.exterior{
+    background-color: lightblue;
+    padding: 10px;
+    margin: 20px;
+}
+
+.interior{
+    background-color: lightcoral;
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* interiores heigt 40px, pero que el alto total sea de 90px */
+/* exterior que este alejado de los elementos interiores, en total, 10px,
+y que tenga un padding de 7px */
+
+.interior2{
+    height: 40px;
+    padding: 25px;
+}
+
+.exterior2{
+    margin: 10px;
+    padding: 6px;
 }

@@ -32,14 +32,16 @@ body{
 
 /* interiores heigt 40px, pero que el alto total sea de 90px */
 /* exterior que este alejado de los elementos interiores, en total, 10px,
-y que tenga un padding de 7px */
+y que tenga un padding de 6px */
 
 .interior2{
+    background-color: blue;
     height: 40px;
+    margin: 4px;
     padding: 25px;
 }
 
 .exterior2{
-    margin: 10px;
+    background-color: green;
     padding: 6px;
 }

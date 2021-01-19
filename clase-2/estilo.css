@@ -1,17 +1,15 @@
 div{
-    background-color: blue;
-    padding: 20px;
+    background-color:red
 }
-
-h2{
-    color: white;
+h1{
+    color: seagreen;
 }
-
+hr{
+    color: slategrey;
+}
 p{
-    color: gray;
+    color: maroon;
 }
-
 body{
-    background-color: red;
+    background-color: skyblue;
 }
-

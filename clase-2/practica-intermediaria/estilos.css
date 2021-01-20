@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+#contenedor{
+    display: flex;
+}
+
 div.cuadrados-1{
     height: 80px;
     width: 80px;

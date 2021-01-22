@@ -7,25 +7,20 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<!-- El input por defecto es un elemento inline, 
-esto quiere decir solo tomara el ancho de su contenido
-para mostrarse en el viewport,  permitiendo que otros elementos
-se posicionen al lado de el -->
-
-<!-- Contrario a los elementos inline, los elementos de bloque, como
-el <p>, toman siempre todo el ancho del viewport, indistintamente si su
-contenido interno llegara a necesitarlo, o no -->
-
-
 <form>
-  <p>Formulario de acceso:</p>
-  <input type="text" placeholder="Ingrega tu username:" />
-  <input type="password" placeholder="Ingrega tu password:" />
-  <input type="email" placeholder="Ingrega tu email" />
-
+  <div class="login">
+  <p class="inline-p">Formulario de acceso:</p>
+  <input class="inline" type="text" placeholder="Ingrega tu username:" />
+  <input class="inline" type="password" placeholder="Ingrega tu password:" />
+  <input class="inline" type="email" placeholder="Ingrega tu email" />
+</div>
+<div class="login-2">
   <p>Deseo recordar mis datos de login:</p>
-  si <input class="inline-element" type="checkbox" /> no
-  <input class="inline-element" type="checkbox" />
+  <div class="div-p2-1">
+    si <input class="inline-element" type="checkbox" /> no
+    <input class="inline-element" type="checkbox" />
+  </div>
+</div>
 
   <p>Ingresa tu fecha de nacimiento:</p>
   <input type="date" />
@@ -36,12 +31,16 @@ contenido interno llegara a necesitarlo, o no -->
   <!-- con la etiqueta <br /> podemos hacer un salto de línea -->
   <br />
   <!-- copia y pega la etiqueta <br /> 5 veces debajo de este comentario -->
-
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
   <p>El clima en mi ciudad esta:</p>
 
-  <span>caliente</span>
-  <input type="range" />
-  <span>frio</span>
+  <span class="span">caliente</span>
+  <input class="span" type="range" />
+  <span class="span">frio</span>
 
   <br />
   <br />

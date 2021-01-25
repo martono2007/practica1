@@ -4,51 +4,43 @@
     <link rel="stylesheet" href="estilos.css">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Document</title>
+		<title>Formulario de Inscripción</title>
 	</head>
 	<body>
+    <h1>FORMULARIO</h1>
 <form>
-  <div class="login">
-  <p class="inline-p">Formulario de acceso:</p>
-  <input class="inline" type="text" placeholder="Ingrega tu username:" />
-  <input class="inline" type="password" placeholder="Ingrega tu password:" />
-  <input class="inline" type="email" placeholder="Ingrega tu email" />
+  <div>
+  <p class="inline">Formulario de acceso:</p>
+  <input class="inline" type="text" id="input1" placeholder="Ingrega tu username:" maxlength="20"/><br>
+  <input class="inline" type="password" placeholder="Ingrega tu password:" maxlength="20"/><br>
+  <input class="inline" type="email" placeholder="Ingrega tu email" /><br>
 </div>
-<div class="login-2">
+<div>
   <p>Deseo recordar mis datos de login:</p>
-  <div class="div-p2-1">
     si <input class="inline-element" type="checkbox" /> no
     <input class="inline-element" type="checkbox" />
-  </div>
 </div>
-
+<div>
   <p>Ingresa tu fecha de nacimiento:</p>
   <input type="date" />
-
+</div>
+<div>
   <p>Escoge tu color favorito</p>
   <input type="color" />
-
-  <!-- con la etiqueta <br /> podemos hacer un salto de línea -->
+</div>
   <br />
-  <!-- copia y pega la etiqueta <br /> 5 veces debajo de este comentario -->
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
+  <div>
   <p>El clima en mi ciudad esta:</p>
 
   <span class="span">caliente</span>
   <input class="span" type="range" />
   <span class="span">frio</span>
-
+</div>
   <br />
   <br />
   <br />
-
+<div>
   <span>Mi plato favorito es:</span>
-  <!-- la etiqueta <select> se usa anidando etiquetas <options>, similar
-    a la etiqueta <ul> con las <li> -->
   <select>
     <option>hamburguesa</option>
     <option>pizza</option>
@@ -56,36 +48,8 @@
     <option>ensalada</option>
     <option>todos los anteriores</option>
   </select>
+</div>
 </form>
-
-<!-- INSTRUCCIONES PARA EL CHALLENGE -->
-<!-- 
-
-  Dale estilos a los diferentes inputs del formulario creando reglas CSS 
-  que agreguen un poco más de vida a lo presentado.
-
-  Por ejemplo, agrega la definición de esta clase dentro de 
-  la etiqueta <style>:
-
-  .input-moderno {
-    border: 2px solid black;
-    padding: 15px;
-    border-radius: 5px;
-    font-size: 15px;
-    background-color: lightpink;
-  }
-
-  Y luego asignala a alguno de los inputs de texto, de esta forma:
-
-  <input class="input-moderno" type="text" placeholder="Ingrega tu username:" />
-
-  observa como dejamos los otros dos atributos intactos, y solo
-  agregamos uno nuevo: class.
-
-  ¿Que otros estilos puedes crear?
-  ¿Puedes darle estilos al select?
-  ¿Que tal al input de la fecha?
- -->		
 	</body>
 	</html>
 </html>

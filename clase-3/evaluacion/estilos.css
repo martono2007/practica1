@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    width: 300px;
+    margin: 0 auto;
+    background-color: blue;
+}
+body{
+    background-color: red;
+}
+
+h1{
+    color: blue;
+    margin: 0 auto;
+}
+
+input{
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.inline-element{
+    display: inline;
+    margin: 0 auto;
+}
+
+br{
+    background-color: blue;
+}
+
+

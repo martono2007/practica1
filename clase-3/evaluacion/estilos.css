@@ -24,7 +24,46 @@ input{
 .inline-element{
     display: inline;
     margin: 0 auto;
+    border-color: rgb(255, 0, 0);
+    border-radius: 5px;
 }
 
+div{
+    text-align: center;
+    padding-top: 50px
+}
 
+div p, span{
+    color: blanchedalmond;
+}
 
+.inline{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.inline::placeholder{
+    font-style: italic;
+}
+.si{
+    color: green;
+    display: inline;
+}
+.no{
+    display: inline;
+    color: rgb(0, 0, 0);
+}
+.div-si{
+    display: inline-flex;
+    padding: 0;
+}
+.div-no{
+    display: inline-flex;
+    padding: 0;
+}
+.div-padre{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}

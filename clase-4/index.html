@@ -1,81 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="estilos.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    font-size: 14px;
-        font-family: "Arial";
-        /* incrementamos la altura del viewport a propósito */
-        height: 2000px;
-      }
-      /* 
-        Esta clase es para poder crear divs de 200px por 200px,
-        un padding de 15px y para alterar el modelo de caja a
-        border-box
-       */
-      .box {
-        height: 200px;
-        width: 200px;
-        padding: 15px;
-        box-sizing: border-box;
-      }
-      /* 
-        Esta clase es para posicionar un div de forma fija en
-        el viewport. Notaras cual es por su color naranja. 
-
-        Cambia los valores de la propiedad top, left y bottom
-        para que veas como el elemento se mueve.
-       */
-      .fixed {
-        position: fixed;
-        background-color: orange;
-        top: 50px;
-        left: 80px;
-        bottom: 400px;
-      }
-      /* 
-        Esta clase es para asignar la posición relativa a un elemento
-       */
-      .relative {
-        position: relative;
-        /* podemos sobre escribir los valores de alto y ancho para esta caja */
-        height: 350px;
-        width: 450px;
-        background-color: green;
-        top: 100px;
-        left: 400px;
-      }
-      /* 
-        Y esta clase es para asignar la posición absoluta a un elemento
-       */
-      .absolute {
-        position: absolute;
-        top: 90px;
-        left: 50px;
-        width: 200px;
-        background-color: plum;
-      }
-    </style>
-
-    <div class="box fixed">
-      Este elemento siempre estará a 50px del borde superior y a 100px del borde
-      izquierdo del browser, indiferente si se mueve el cuerpo del documento.
-      (scrollea hacia arriba y hacia abajo para ver como se queda fijo)
-    </div>
-    <div class="box relative">
-      Este elemento tiene position:relative y solo estará a 100px del borde
-      superior y a 400px del borde izquierdo pero no se queda fija como la caja
-      naranja, que tiene position: fixed. Cambia los valores top y left a 0px en
-      la clase .relative y observa lo que pasa.
-      <div class="box absolute">
-        Los elementos con position:absolute deben estar anidadas dentro de una
-        caja con position relative. Estos elemento toman como punto de
-        referencia al elemento que lo encierra. Cambia los valores top y left a
-        0px en la clase .absolute y observa lo que pasa.
-      </div>
-    </div>
+<div class="box fixed">
+  Este elemento siempre estará a 50px del borde superior y a 100px del borde
+  izquierdo del browser, indiferente si se mueve el cuerpo del documento.
+  (scrollea hacia arriba y hacia abajo para ver como se queda fijo)
+</div>
+<div class="box relative">
+  Este elemento tiene position:relative y solo estará a 100px del borde
+  superior y a 400px del borde izquierdo pero no se queda fija como la caja
+  naranja, que tiene position: fixed. Cambia los valores top y left a 0px en
+  la clase .relative y observa lo que pasa.
+  <div class="box absolute">
+    Los elementos con position:absolute deben estar anidadas dentro de una
+    caja con position relative. Estos elemento toman como punto de
+    referencia al elemento que lo encierra. Cambia los valores top y left a
+    0px en la clase .absolute y observa lo que pasa.
+  </div>
+</div>
 </body>
 </html>
